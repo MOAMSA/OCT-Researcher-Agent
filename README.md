@@ -1,6 +1,6 @@
-# Question-Answering System Overview
+# OCT Question-Answering System
 
-The provided code implements a **question-answering system** that combines machine learning with vector search to handle queries, particularly in the **medical field**.
+The provided code implements a **question-answering system** that combines machine learning with vector search to handle queries, particularly in the **OCT field**.
 
 ## Datasets Used
 
@@ -14,4 +14,4 @@ The code uses the **sentence-transformers/all-MiniLM-L6-v2** model to convert te
 
 The system employs **Meta-LLaMA 3**, a large language model from the LLaMA family, designed for natural language processing tasks such as text generation and answering queries. After retrieving relevant documents using Pinecone, LLaMA 3 generates context-aware answers based on the scientific literature from PubMed.
 
-Overall, the system integrates document retrieval with advanced **natural language processing** to deliver precise, contextually relevant responses to complex queries.
+
